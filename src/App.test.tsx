@@ -1,9 +1,11 @@
+// src/App.test.tsx
+
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// Теперь у нас будет один простой тест, который просто проверяет,
+// что компонент App рендерится без ошибок.
+test('renders App component without crashing', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });

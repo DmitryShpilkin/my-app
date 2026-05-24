@@ -14,8 +14,8 @@
 
 1.  **Клонируйте репозиторий** и перейдите в папку проекта:
     ```bash
-    git clone <ссылка_на_твой_репозиторий>
-    cd <название_папки_проекта>
+    git clone <[https://github.com/DmitryShpilkin/my-app](https://github.com/DmitryShpilkin/my-app)>
+    cd <my-app>
     ```
 
 2.  **Установите зависимости:**
